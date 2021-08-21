@@ -1,0 +1,33 @@
+.main {
+  margin-left: 296px;
+}
+
+.header-tools {
+  margin-left: 582px;
+}
+
+.header-tools span {
+  color: #212529;
+}
+
+.header-tools a {
+  margin-left: 24px;
+}
+
+.addicon {
+  color: #198754;
+}
+
+.main-footer {
+  margin-left: 791px;
+}
+
+.page-link-number {
+  color: #000;
+}
+
+.pagination:nth-last-child(2) {
+  color: red;
+}
+
+/*# sourceMappingURL=main-Admin.css.map */

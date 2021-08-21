@@ -1,21 +1,24 @@
-.nav{
+.nav {
   position: fixed;
   max-width: 296px;
   min-height: 100vh;
 }
-.personal{
+
+.personal {
   margin-top: 362px;
-  img{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-  }
 }
-.nav-link{
+
+.personal img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-link {
   color: #212529;
 }
 
-.active::before{
+.active::before {
   content: "";
   position: absolute;
   left: 0;
@@ -23,3 +26,5 @@
   height: 32px;
   border-left: 4px solid #198754;
 }
+
+/*# sourceMappingURL=index.css.map */

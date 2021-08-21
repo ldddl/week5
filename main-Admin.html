@@ -1,10 +1,86 @@
----
-title: main-Admin
-layout: ./app/layout.ejs
-engine: ejs
-current: main-Admin
----
-<div class="main">
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>main-Admin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+  </head>
+
+  <body>
+    <nav class="nav flex-column bg-light">
+      <div class="logo mb-4 mt-4 ms-4">
+        <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/8d1ef3b63951b7f749edd130ff66e4d4856a3df2/week5/logo-ANSWER.svg" alt="logo-ANSWER.svg">
+      </div>
+      <ul class="nav-list">
+        <li class="nav-items d-flex">
+          <a class="nav-link" aria-current="page" href="#">
+            <span class="material-icons me-3">
+              assessment
+            </span>
+            Dashboard
+          </a>
+        </li>
+        <li class="nav-items d-flex">
+          <a class="nav-link" href="#">
+            <span class="material-icons me-3">
+              question_answer
+            </span>
+            Question
+          </a>
+        </li>
+        <li class="nav-items d-flex">
+          <a class="nav-link" href="#">
+            <span class="material-icons me-3">
+              assignment
+            </span>
+            Assignment
+          </a>
+        </li>
+        <li class="nav-items d-flex">
+          <a class="nav-link" href="#">
+            <span class="material-icons me-3">
+              video_library
+            </span>
+            Course
+          </a>
+        </li>
+        <li class="nav-items d-flex">
+          <a class="nav-link active" href="#">
+            <span class="material-icons me-3">
+              people
+            </span>
+            Admin
+          </a>
+        </li>
+        <li class="nav-items d-flex">
+          <a class="nav-link" href="#">
+            <span class="material-icons me-3">
+              settings
+            </span>
+            Settings
+          </a>
+        </li>
+      </ul>
+      <div class="personal d-flex align-items-center">
+      <img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true">
+      <div class="personal-msg ms-3">
+        <ul class="personal-list list-unstyled">
+          <li class="personal-items">
+            <h6>Andy Chen</h6>
+          </li>
+          <li class="personal-items">
+            <p>andy0401@mail.com</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+    <div class="main">
   <div class="main-header d-flex pt-4 mb-5">
     <h2>Admin</h2>
     <a class="btn btn-add-admin d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#modal-new-admin">
@@ -220,3 +296,8 @@ current: main-Admin
     </ul>
   </nav>
 </div>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
